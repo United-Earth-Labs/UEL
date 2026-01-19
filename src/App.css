@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Landing-area uses the landing token so it stays white even in dark mode */
+.landing {
+  background: var(--landing-bg); /* forces white on landing */
+  color: var(--text-on-landing);
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* subtle border-bottom to keep visual link to dark theme when in dark mode */
+  box-shadow: 0 6px 30px rgba(2,6,23,0.06);
+}
+
+/* when in dark system theme, add a faint separator so the landing still reads as part of the dark site */
+@media (prefers-color-scheme: dark) {
+  .landing {
+    border-bottom: 1px solid rgba(4,8,20,0.08);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.animate-fade-in {
+  animation: fade-in 1.5s ease forwards;
+}
+
+/* overlay and centering helpers (keep existing behavior) */
+.overlay { position: absolute; inset: 0; z-index: 50; pointer-events: none; }
+.center-control { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; pointer-events: none; }
+.center-control > * { pointer-events: auto; }
+
+/* small visual polish for the text-stack over white bg */
+.text-stack { text-align: center; z-index: 60; padding: 0 1.5rem; }

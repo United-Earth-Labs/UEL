@@ -1,0 +1,168 @@
+/* Tailwind CSS v4 - using @import syntax */
+@import "tailwindcss";
+
+:root {
+  --bg-1: #03102a;
+  --bg-2: #071022;
+  --accent: #8ab4ff;
+  --glass: rgba(255,255,255,0.06);
+  --landing-bg: #ffffff;
+  --page-bg: linear-gradient(180deg,#03102a,#071022);
+  --text-on-landing: #0b0b0b;
+
+  --btn-bg: rgba(255,255,255,0.45);
+  --btn-border: rgba(0,0,0,0.08);
+  --btn-inset: rgba(255,255,255,0.7);
+  --btn-shadow: 0 10px 30px rgba(2,6,23,0.08);
+  --btn-accent-glow: rgba(138,180,255,0.06);
+  --btn-sheen: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(255,255,255,0.22));
+}
+
+/* dark-system tweaks (landing stays white) */
+@media (prefers-color-scheme: dark) {
+  :root{
+    --page-bg: linear-gradient(180deg,#030615,#051028);
+    --btn-bg: rgba(255,255,255,0.36);
+    --btn-border: rgba(0,0,0,0.12);
+    --btn-inset: rgba(255,255,255,0.5);
+    --btn-shadow: 0 12px 40px rgba(4,8,18,0.16);
+    --btn-accent-glow: rgba(138,180,255,0.12);
+    --btn-sheen: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(255,255,255,0.24));
+  }
+}
+
+/* keep body using the site theme but landing element will override */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--page-bg) !important;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+}
+
+html,body,#root { 
+  height: 100%; 
+}
+html {
+  scroll-behavior: smooth;
+}
+.app-root { 
+  position: relative; 
+  min-height: 100vh; 
+  overflow-x: hidden; 
+}
+main {
+  position: relative;
+  z-index: 10;
+}
+.overlay { 
+  position: absolute; 
+  inset: 0; 
+  z-index: 50; 
+  pointer-events: none; 
+}
+.center-control { 
+  position: absolute; 
+  inset: 0; 
+  display:flex; 
+  align-items:center; 
+  justify-content:center; 
+  pointer-events: none; 
+}
+.center-control > * { 
+  pointer-events: auto; 
+}
+
+.bg-reveal { 
+  position: absolute; 
+  inset: 0; 
+  z-index: 0; 
+  overflow: hidden; 
+}
+.bg-image {
+  position:absolute; 
+  inset:0; 
+  background-position:center; 
+  background-size:cover; 
+  z-index:0;
+  transition: transform 180ms linear, opacity 220ms linear;
+}
+.bg-overlay {
+  position:absolute; 
+  inset:0; 
+  z-index:1; 
+  background: linear-gradient(180deg, rgba(6,10,25,0.22) 0%, rgba(2,6,20,0.6) 80%); 
+}
+
+.animated-text { 
+  z-index:60; 
+  text-align:center; 
+  padding:0 24px; 
+}
+.bigline { 
+  font-size: clamp(28px, 6vw, 56px); 
+  margin: 6px 0; 
+  font-weight:800; 
+  opacity:0; 
+  transform: translateY(20px); 
+  animation: slideUp 600ms cubic-bezier(.2,.9,.2,1) forwards; 
+}
+.subline { 
+  margin-top: 16px; 
+  opacity:0; 
+  animation: fadeIn 500ms ease-out forwards; 
+}
+
+@keyframes slideUp {
+  from { 
+    transform: translateY(20px); 
+    opacity: 0; 
+    filter: blur(6px); 
+  }
+  to { 
+    transform: translateY(0); 
+    opacity: 1; 
+    filter: blur(0); 
+  }
+}
+@keyframes fadeIn { 
+  from { 
+    opacity: 0; 
+  } 
+  to { 
+    opacity: 1; 
+  } 
+}
+
+/* Liquid glass button small CSS file can also go here or separate */
+.lg-btn {
+  position: relative; 
+  display:inline-block; 
+  padding:14px 32px; 
+  border-radius:14px;
+  background: rgba(255,255,255,0.06); 
+  border:1px solid rgba(255,255,255,0.08);
+  color:white; 
+  font-weight:700; 
+  font-size:16px; 
+  cursor:pointer; 
+  backdrop-filter: blur(6px);
+  box-shadow: 0 10px 30px rgba(2,6,23,0.6);
+}
+.lg-btn .sheen { 
+  position:absolute; 
+  inset:0; 
+  background: linear-gradient(180deg, rgba(255,255,255,0.08), transparent); 
+  border-radius:14px; 
+  pointer-events:none; 
+  mix-blend-mode:screen; 
+}
+.lg-btn:active { 
+  transform: scale(.98) translateY(1px); 
+}
