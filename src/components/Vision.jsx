@@ -72,7 +72,7 @@ export default function Vision() {
                   />
                 </div>
                 <p className="text-sm text-gray-400">
-                  Current progress: 15% • Target: 100% Type 1 Civilization
+                  Current progress: 73% • Target: 100% Type 1 Civilization
                 </p>
               </div>
             </div>
