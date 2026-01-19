@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+# United Earth Labs (UEL)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Advancing Humanity to a Type 1 Civilization**
 
-## Available Scripts
+United Earth Labs (UEL) is a future-oriented initiative focused on advancing humanity toward **Type 1 Civilization** status on the Kardashev Scale. This website serves as UEL’s public interface—communicating its vision, long-term goals, and conceptual technological projects aimed at planetary-scale progress.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌍 Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:5173) to view it in your browser.
+Humanity is approaching a critical evolutionary transition. United Earth Labs exists to accelerate that transition with intent, structure, and engineering discipline.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+UEL focuses on transforming ideas that currently exist at the edge of science and speculation into feasible, scalable technological systems. The website presents UEL’s philosophy, mission objectives, and a framework for participation.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Vision: The Path to Type 1
 
-### `npm run build`
+A **Type 1 Civilization** is defined as a civilization capable of harnessing and managing the full energy potential of its home planet.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+At United Earth Labs, this vision includes:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Planet-wide energy generation and distribution  
+- Deep integration of technology with human biology  
+- Sustainable systems that eliminate resource scarcity  
+- Expansion of human capability beyond current biological constraints  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This is not science fiction—it is treated as a long-term engineering problem.
 
-### `npm run eject`
+**Current Progress:** 73%  
+**Target:** 100% Type 1 Civilization
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎯 Core Goals
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+These goals represent civilization-scale milestones rather than isolated research projects.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Cybertron Construction
+Designing and building planet-scale technological infrastructure that operates as an integrated global system.
 
-## Learn More
+### Cyborg Technology
+Developing seamless human–machine interfaces that enhance physical and cognitive abilities while preserving human identity.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Solar Energy Harvesting
+Harnessing up to **10% of the Sun’s total energy output** to sustainably power all human activity.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Radiation as Fuel
+Transforming harmful radiation into clean, usable energy sources.
 
-### Code Splitting
+### Artificial Ecosystems
+Creating self-sustaining biomes capable of supporting life beyond Earth.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Human Dreams Realized
+A unifying objective: converting ambitious human ideas into functional technology through research, engineering, and iteration.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🖥️ Command Center (Interactive Terminal)
 
-### Making a Progressive Web App
+The website includes a terminal-style interface for exploring projects and future plans.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Terminal Version:** UEL Terminal v1.0
 
-### Advanced Configuration
+**Available Commands:**
+- `cybertron-construction`
+- `cyborg-technology`
+- `solar-energy-harvesting`
+- `radiation-as-fuel`
+- `artificial-ecosystems`
+- `human-dreams-realized`
+- `help`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This interface reflects UEL’s systems-first, engineering-driven mindset.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🤝 Join the Mission
 
-### `npm run build` fails to minify
+United Earth Labs is open to contributors who are serious about building the future, including:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Scientists  
+- Engineers  
+- Developers  
+- Designers  
+- Researchers  
+- Visionaries and system thinkers  
+
+Every contribution matters at civilization scale.
+
+**Contact & Links:**
+- Email  
+- GitHub  
+- LinkedIn  
+- Apply to Join the Team  
+
+---
+
+## 🛠️ Repository Scope
+
+This repository contains:
+
+- Website source code  
+- UI and layout components  
+- Terminal interaction logic  
+- Static content for vision and goals  
+
+Technical documentation can be expanded as the project matures.
+
+---
+
+## 📜 License & Copyright
+
+© 2026 United Earth Labs. All rights reserved.
+
+**United Earth Labs — Building Tomorrow, Today.**
