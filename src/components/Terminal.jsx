@@ -3,6 +3,44 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, Terminal as TerminalIcon } from 'lucide-react';
 
 const COMMANDS = {
+  'hand-wrapped-device': {
+    title: 'Hand Wrapped Devices',
+    description: 'Your device rolled around your arm, sitting in a band, and  coming out when fingerprint is scanned.',
+    details: `
+Project: HAND WRAPPED DEVICES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Overview:
+We are constructing a device which will be wrapped 
+around your arm.
+
+Why We Want This:
+• To eliminate need of a metal block (current devices)
+• To inovate hand held devices
+
+Status: Prototype
+Next Steps: Patent
+    `
+    'power-gautlet': {
+    title: 'Power Gautlet',
+    description: 'Building a gautlet which enhnaces human strength',
+    details: `
+Project: POWER GAUTLET
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Overview:
+We are constructing a gautlet which enhances human strength
+allowing humans to exert 10x force.
+
+Why We Want This:
+• To enhance human strength
+• To create a weapon for fist
+
+Status: Research Phase
+Next Steps: Prototype and patent
+    `
+  },
+  },
   'cybertron-construction': {
     title: 'Cybertron Construction',
     description: 'Building a planet-scale technological infrastructure that serves as humanity\'s ultimate achievement in engineering and innovation.',
