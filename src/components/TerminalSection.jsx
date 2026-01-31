@@ -4,6 +4,69 @@ import { useInView } from 'framer-motion';
 import { Terminal as TerminalIcon } from 'lucide-react';
 
 const COMMANDS = {
+    'armoris': {
+    title: 'Armoris',
+    description: 'Your device rolled around your arm, sitting in a band, and  coming out when fingerprint is scanned.',
+    details: `
+Project: ARMORIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Overview:
+We are constructing a device which will be wrapped 
+around your arm.
+
+Why We Want This:
+• Break rigid device form factors
+• Improve on-body ergonomics
+• Explore flexible primary interfaces
+• Enable secure, instant access
+
+Status: Prototype
+Next Steps: Patent
+    `
+    'augmenta': {
+    title: 'Augmenta',
+    description: 'Building a gautlet which enhnaces human strength',
+    details: `
+Project: AUGMENTA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Overview:
+We are constructing a gautlet which enhances human strength
+allowing humans to exert 10x force.
+
+Why We Want This:
+• Study safe strength augmentation
+• Extend human physical capability
+• Reduce strain in force tasks
+• Build foundations for future wearables
+
+Status: Research Phase
+Next Steps: Prototype and patent
+    `
+  },
+  },
+  'cybertron-construction': {
+    title: 'Cybertron Construction',
+    description: 'Building a planet-scale technological infrastructure that serves as humanity\'s ultimate achievement in engineering and innovation.',
+    details: `
+Project: CYBERTRON CONSTRUCTION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Overview:
+We are constructing a planet-scale technological infrastructure that will 
+serve as humanity's ultimate achievement in engineering and innovation.
+
+Why We Want This:
+• To provide unlimited computational resources for global advancement
+• To create a self-sustaining technological ecosystem
+• To enable processing power for solving humanity's greatest challenges
+• To establish a foundation for becoming a Type 1 Civilization
+
+Status: Research Phase
+Next Steps: Advanced architectural planning and resource assessment
+    `
+  },
   'cybertron-construction': {
     title: 'Cybertron Construction',
     details: `Project: CYBERTRON CONSTRUCTION
